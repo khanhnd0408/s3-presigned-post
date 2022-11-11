@@ -1,7 +1,4 @@
 from flask import Flask, request, render_template
-import utils
-import datetime
-import os
 import boto3
 from botocore.client import Config
 
